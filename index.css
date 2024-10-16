@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+    line-height: 1.4;
+    padding: 20px 10%;
+    background-color: #3c889b;
+}
+form{
+    background-color: white;
+    
+}
+form header{
+    padding: 2rem;
+}
+form header div{
+    font-size: 90%;
+    color: #999;
+}
+form header h2{
+    margin: 0 0 5px 0;
+}
+
+input[type=text] {
+   
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
