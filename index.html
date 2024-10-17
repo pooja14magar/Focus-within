@@ -11,44 +11,63 @@
         <header>
             <h2>css :focus-within pseudo class</h2>
         </header>
-        <div>
-           <label for="fullname">Full Name</label>
-       <div>
-        <input id="fullname" type="text" value=""autocomplete="off">
-    </div>
-</div>
-<div>
-           <label for="Email">Email</label>
-       <div>
-        <input id="email" type="email" value=""autocomplete="off">
-    </div>
-    </div>
-<div>
-    <label for="gender">gender</label>
-    <div>
-        <input  id="gender"type="radio" name="gender">male
-        <input  id="gender"type="radio" name="gender">Female
-    </div>
-</div>
-    <div>
-        <label for="Hobbies">Hobbies</label>
-        <div>
-        <input type="checkbox" value="Travel">travel
-        <input type="checkbox" value="Reading Book">Reading Book
-        <input type="checkbox" value="Photography">Photography
-    </div>
-    </div>
-   <div>
-    <label for="country">Country</label>
-<div>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </div>
-    </select>
-    <input type="submit" value="Submit">
+        <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="gender">gender</label>
+              </div>
+              <div class="col-75">
+               <input type="radio" value="male" name="gender">male
+               <input type="radio" value="male" name="gender"> female
+              </div>
+            </div>
 
-    </form>
+            <div class="row">
+                <div class="col-25">
+                  <label for="hobbies">Hobbies</label>
+                </div>
+                <div class="col-75">
+                 <input type="checkbox" value="Reading book" name="checkbox">Reading book
+                 <input type="checkbox" value="photography" name="checkbox"> photography
+                </div>
+              </div>
+            <br>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+            </form>
+            </div>
+         
+          
+    
 </body>
 </html>
